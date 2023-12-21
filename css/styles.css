@@ -1,5 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -25,17 +27,17 @@ ul {
 /** ------------Header-------- */
 
 .header-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
-.header-logo-blue {
-    color: #4D5AE5;
+.header-logo-black {
+    color: #2E2F42;
 }
 
 .header-menu-link {
@@ -47,8 +49,27 @@ ul {
 }
 
 .header-menu-link:hover, .header-menu-link:focus, .header-menu-link:active {
-color: #4D5AE5;
-}  
+color: #404bbf;
+} 
+
+.header-adress {
+    font-style: normal;
+}
+
+.header-adress-list {}
+
+.header-adress-item {}
+
+.header-adress-link {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+}
+.header-adress-link:hover, .header-adress-link:focus,
+.header-adress-link:active {
+    color: #404bbf;
+}
 
 /** ------------------------ */
 
@@ -67,12 +88,17 @@ color: var(--WHITE, #FFF);
     letter-spacing: 0.02em;
 }
 .hero-order-btn {
+    background-color: #4D5AE5;
 color: var(--WHITE, #FFF);
+font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.04em;
     cursor: pointer;
+}
+.hero-order-btn:hover, .hero-order-btn:focus {
+    background-color: #404BBF;
 }
 /** ------------------------ */
 
@@ -99,7 +125,7 @@ color: var(--WHITE, #FFF);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.50;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.02em;
 }
 
 
@@ -119,7 +145,9 @@ color: var(--WHITE, #FFF);
         text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
@@ -187,7 +215,8 @@ color: var(--WHITE, #FFF);
 }
 
 .footer-logo {
-    color: var(--CLOUD, #F4F4FD);
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -195,8 +224,8 @@ color: var(--WHITE, #FFF);
         text-transform: uppercase;
 }
 
-.footer-logo-blue {
-    color: #4D5AE5;
+.footer-logo-black {
+    color: #f4f4fd;
 }
 
 .footer-text {
